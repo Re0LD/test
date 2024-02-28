@@ -34,3 +34,12 @@ git的邮箱
 ---
 >**git reset HEAD < file >**
 将暂存区的修改撤销掉
+---
+>**git remote add origin git@github.com:name/repo.git**
+将本地的git仓库关联到github中，即添加远程库
+---
+>**git push -u origin master**
+将当前分支推送到远程,-u不仅把本地分支推送到远程，也把本地和远程的master关联起来
+---
+>**git clone git@github.com:name/repo.git**
+克隆一个本地库

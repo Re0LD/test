@@ -43,3 +43,17 @@ git的邮箱
 ---
 >**git clone git@github.com:name/repo.git**
 克隆一个本地库
+---
+>**git checkout -b branchname**
+创建并切换到branchname分支
+---
+>**git branch**
+查看当前分支
+---
+>**git checkout branchname**
+切换到branchname分支
+---
+>**git merge branchname**
+合并指定branchname分支到当前分支
+---
+>**s**

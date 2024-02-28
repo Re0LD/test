@@ -56,4 +56,5 @@ git的邮箱
 >**git merge branchname**
 合并指定branchname分支到当前分支
 ---
->**s**
+>**git branch -d branchname**
+删除branchname分支

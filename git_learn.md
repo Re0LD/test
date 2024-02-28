@@ -29,4 +29,8 @@ git的邮箱
 >**git reflog**
 查看历史命令
 ---
->**s**
+>**git checkout -- file**
+丢弃工作区的修改
+---
+>**git reset HEAD < file >**
+将暂存区的修改撤销掉

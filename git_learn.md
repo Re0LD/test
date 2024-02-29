@@ -58,3 +58,6 @@ git的邮箱
 ---
 >**git branch -d branchname**
 删除branchname分支
+---
+>**git stash**
+将当前工作区储存起来；

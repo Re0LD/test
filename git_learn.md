@@ -80,5 +80,49 @@
 >>**删除branchname分支**
 
 ---
+>```git switch branchname```
+>>**切换到branchname分支**
+---
+
 >```git stash```
 >>**将当前工作区储存起来；**
+
+---
+>```git stash pop```
+>>**恢复工作区，同时也把stash内容删除**
+
+---
+>```git stash apply stash@{?}```
+>>**恢复指定的stash**
+
+---
+>```git stash list```
+>>**查看stash中有哪些存储的stash**
+
+---
+>```git cherry-pick ?```
+>>**复制一个特定的提交到当前分支；？表示指令代码**
+
+---
+>```git push origin branchname```
+>>**远程库默认名字是origin，将branchname分支推送到远程库中**
+
+---
+>```git tag <name>```
+>>**给git打一个标签，name是标签名字**
+
+---
+>```git tag```
+>>**查看所有标签**
+
+---
+>```git show <tagname>```
+>>**查看标签信息**
+
+---
+>```git tag -d <tagname>```
+>>**删除某个标签**
+
+---
+>```git tag```
+>>**查看所有标签**
